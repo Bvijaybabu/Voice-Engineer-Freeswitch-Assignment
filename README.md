@@ -38,6 +38,4 @@ make && make install
 # Install audio files:
 make cd-sounds-install cd-moh-install
 
-#Create SIP Users registration
-/usr/local/freeswitch/conf/directory/default
 
