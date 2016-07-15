@@ -1,6 +1,6 @@
 # Voice-Engineer-Freeswitch-Assignment
 #Freeswitch 1.6 install in server
-#by following step install freeswitch and amd enable the modules (lua, esl)
+#by following step install freeswitch and  enable the modules (lua, esl)
 
 1.INSTALL DEBAIN PACKAGES
 wget -O - https://files.freeswitch.org/repo/deb/debian/freeswitch_archive_g0.pub | apt-key add -
