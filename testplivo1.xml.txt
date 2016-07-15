@@ -1,0 +1,14 @@
+<include>
+  <user id="testplivo1" cidr="104.130.216.75">
+    <params>
+      <param name="password" value="freeswitchplivo7809"/>
+      <param name="vm-password" value="7809"/>
+    </params>
+    <variables>
+      <variable name="accountcode" value="testplivo1"/>
+      <variable name="user_context" value="default"/>
+      <variable name="effective_caller_id_name" value="1223334444"/>
+      <variable name="effective_caller_id_number" value="1223334444"/>
+    </variables>
+  </user>
+</include>
