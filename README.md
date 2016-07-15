@@ -24,22 +24,20 @@ cd /usr/src
 git clone https://freeswitch.org/stash/scm/fs/freeswitch.git
  
 cd /usr/src/freeswitch
-  
+
 # The -j argument spawns multiple threads to speed the build process 
 ./bootstrap.sh -j
-   
+
 # if you want to add or remove modules from the build, edit modules.conf
 vi modules.conf
 enable the mod_lua,mod_curl modules
 
 ./configure --enable-core-pgsql-support
-   
 make && make install
  
 # Install audio files:
 make cd-sounds-install cd-moh-install
- 
- 
-# Future updates:
-cd /usr/local/freeswitch
-make current
+
+#Create SIP Users registration
+/usr/local/freeswitch/conf/directory/default
+
