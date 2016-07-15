@@ -41,3 +41,6 @@ make cd-sounds-install cd-moh-install
 #Create SIP Users registration
 /usr/local/freeswitch/conf/directory/default
 
+#for the first scenario
+i created file name with the name call testinbound.lua in /usr/local/freeswitch/scripts/ path
+
