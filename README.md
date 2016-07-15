@@ -44,3 +44,5 @@ make cd-sounds-install cd-moh-install
 #for the first scenario
 i created file name with the name call testinbound.lua in /usr/local/freeswitch/scripts/ path
 
+# for the second scenaro 
+when we create the call created the conference room and as well as connted to other call to conference room and send http request to the files.
